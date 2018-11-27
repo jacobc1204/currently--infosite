@@ -15,6 +15,7 @@ const Container = styled.div`
 
   @media (max-width: 700px) {
     grid-template-columns: 90%;
+    grid-template-rows: repeat(4, 20em);
   }
 `;
 
