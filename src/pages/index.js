@@ -12,12 +12,16 @@ const Container = styled.div`
   grid-template-rows: repeat(4, 37em);
   grid-column-gap: 40px;
   align-items: center;
+
+  @media (max-width: 700px) {
+    grid-template-columns: 90%;
+  }
 `;
 
 const Text = styled.p`
   color: #303036;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.1em;
 `;
 
 const Conclusion = styled.p`

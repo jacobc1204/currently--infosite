@@ -17,7 +17,7 @@ const Container = styled.header`
 const Btn = styled.a`
   text-decoration: none;
   height: 100%;
-  width: 11em;
+  width: 10em;
   background-color: #5CBCEC;
   border: none;
   justify-self: end;
