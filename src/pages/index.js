@@ -29,6 +29,10 @@ const Conclusion = styled.p`
   grid-column: 1 / -1;
   height: 700px;
   margin-top: 17em;
+
+  @media (max-width: 700px) {
+    margin-top: 0;
+  }
 `
 
 const Words = styled.div`
