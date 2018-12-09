@@ -19,8 +19,8 @@ module.exports = {
         name: 'Currently',
         short_name: 'currently',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#5CBCEC',
+        theme_color: '#5CBCEC',
         display: 'minimal-ui',
         icon: 'src/images/currentlylogo.png', // This path is relative to the root of the site.
       },
