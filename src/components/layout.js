@@ -22,8 +22,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Challenge yourself to read more with this app to help you track your progress towards your reading challenge goal.' }
           ]}
         >
           <html lang="en" />
